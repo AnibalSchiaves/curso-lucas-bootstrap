@@ -1,0 +1,10 @@
+las clases básicas en bootstrap son: container y container-fluid, elemento global de contenido de pagina
+en el container-fluid se expande para ocupar el maximo ancho posible
+en el container siempre deja margenes y esos margenes varian en funcion de la resolucion
+bootstrap maneja distintos tipos de resoluciones:
+-xs : resolucion mas chica aplicable para dispositivos moviles
+-sm : resolucion para moviles en posicion horizontal
+-md : resolucion para tablets
+-lg : resolucion para laptops
+-xl : resolucion para pc de escritorio
+-xxl : resolucion para televisores

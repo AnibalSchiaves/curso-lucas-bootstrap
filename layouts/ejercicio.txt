@@ -1,0 +1,8 @@
+Tomar el layout fluid y modificarlo de manera que:
+
+1- se agregue una nueva columna, similar a las 3 ya existentes
+2- para la resolucion lg en adelante se deben ver las 4 columnas
+3- para la resolucion md se deben ver 3 columnas, si alguna fila tiene menos de 3 columnas su contenido debe verse centrado
+4- para la resolucion sm se debe ver el contenido en 2 columnas
+5- para la resolucion xs se debe ver en 1 sóla columna
+6- tener en cuenta que el footer se vea en una columna para resolución xs y en 2 columnas a partir de resolución sm

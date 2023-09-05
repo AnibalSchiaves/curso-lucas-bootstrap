@@ -1,6 +1,9 @@
 Tomar el layout fluid y modificarlo de manera que:
 
-1- se agregue una nueva columna, similar a las 3 ya existentes
+1- se agregue una nueva columna, similar a las 3 ya existentes, conteniendo el siguiente html:
+        <h2>JavaScript</h2>
+        <p>JavaScript is the most popular and widely used client-side scripting language. Our JavaScript tutorials will provide in-depth knowledge of the JavaScript including ES6 features, so that you can create interactive websites.</p>
+        <p><a href="https://www.tutorialrepublic.com/javascript-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
 2- para la resolucion lg en adelante se deben ver las 4 columnas
 3- para la resolucion md se deben ver 3 columnas, si alguna fila tiene menos de 3 columnas su contenido debe verse centrado
 4- para la resolucion sm se debe ver el contenido en 2 columnas

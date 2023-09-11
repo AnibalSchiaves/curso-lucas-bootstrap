@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container bg-light" >
+        <h2 class="text-center bg-secondary"><ins>Trabajando con títulos</ins></h2>
+        <div class="row">
+            <div class="col-">
+                <h1>h1 - Título en Bootstrap</h1>
+                <h2>h2 - Título en Bootstrap</h2>
+                <h3>h3 - Título en Bootstrap <small class="text-muted">- texto secundario</small></h3>
+                <h4>h4 - Título en Bootstrap</h4>
+                <h5>h5 - Título en Bootstrap</h5>
+                <h6>h6 - Título en Bootstrap</h6>
+            </div>
+            <div class="col-">
+                <div class="display-1">Título usando display-1</div>
+                <div class="display-2">Título usando display-2</div>
+                <div class="display-3">Título usando display-3 <small class="text-muted">- texto secundario</small></div>
+                <div class="display-4">Título usando display-4</div>
+                <div class="display-5">Título usando display-5</div>
+                <div class="display-6">Título usando display-6</div>
+            </div>
+        </div>
+        <hr>
+        <h2 class="text-center bg-secondary"><ins>Trabajando con párrafos</ins></h2>
+        <div class="row">
+          <div class="col-">
+              <p>Esto es un párrafo normal en bootstrap.</p>
+              <p class="lead">Esto es un párrafo destacado en bootstrap.</p>
+              <p class="text-center">Usando la clase text-center podemos centrar el párrafo.</p>
+              <p class="text-end">Usando la clase text-end podemos hacer que el párrafo se alinee a la derecha.</p>
+              <p class="text-sm-center">Usando la clase text-sm-center se centra desde resolución sm.</p>
+              <p class="text-md-center">Usando la clase text-md-center se centra desde resolución md.</p>
+              <p class="text-lg-center">Usando la clase text-lg-center se centra desde resolución lg.</p>
+              <p class="text-xl-center">Usando la clase text-xl-center se centra desde resolución xl.</p>
+          </div>
+        </div>
+        <hr>
+        <h2 class="text-center bg-secondary"><ins>Trabajando con colores y tranformaciones de texto</ins></h2>
+        <div class="row">
+          <div class="col-6">
+            <p class="text-lowercase text-center">ESTE TEXTO SE VA A VER EN MINÚSCULAS</p>
+            <p class="text-uppercase text-center">Este texto se va a ver en mayúsculas</p>
+            <p class="text-capitalize text-center">Este texto se verá con la primera letra en mayúsculas en cada palabra</p>
+          </div>
+          <div class="col-6">
+            <p class="text-primary">text-primary: este color se usa para texto primario.</p>
+            <p class="text-secondary">text-secondary: este color se usa para texto secundario.</p>
+            <p class="text-success">text-success: este color se usa para mensajes de éxito.</p>
+            <p class="text-warning">text-warning: este color se usa para mensajes de advertencia.</p>
+            <p class="text-danger">text-danger: este color se usa para mensajes de error.</p>
+            <p class="text-muted">text-muted: este color se usa para mensajes de poca relevancia.</p>
+          </div>
+        </div>
+        <hr>
+        <h2 class="text-center bg-secondary"><ins>Estilizando las citas</ins></h2>
+        <div class="row">
+          <div class="col-6">
+            <blockquote>Del lado izquierdo no aplicamos estilos a las citas.</blockquote>
+            <figure>
+              <blockquote>
+                Que mal que la estoy pasando
+              </blockquote>
+              <figcaption>
+                Gastón Gaudio
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6">
+            <blockquote class="blockquote">Del lado derecho aplicamos los estilos de bootstrap a las citas.</blockquote>
+            <figure>
+              <blockquote class="blockquote">
+                Que mal que la estoy pasando
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Gastón Gaudio
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <hr>
+        <h2 class="text-center bg-secondary"><ins>Truncado de textos y texto envolvente.</ins></h2>
+        <div class="col-lg-12 col-md-3 text-truncate">
+          Este texto va a ser truncado en alguna parte si achicas la ventana.
+        </div>
+        <div class="row m-1">
+          <div class="col-2 badge bg-primary text-wrap">Este texto será acomodado dentro de la caja que lo contiene</div>
+          <div class="col-2"></div>
+          <div class="col-2 badge bg-warning text-secondary text-nowrap">sin embargo, este texto desborda su contenedor</div>
+        </div>
+        <hr>
+        <div class="row m-1">
+          <div class="col-3 badge bg-warning text-secondary text-wrap">Este texto será acomodado dentro de la caja que lo contiene, pero si hay una palabra muy largaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa se desborda igual</div>
+          <div class="col-3"></div>
+          <div class="col-3 badge bg-primary text-wrap text-break">Este texto será acomodado dentro de la caja que lo contiene, incluso si contiene una palabra muy largaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        </div>
+        <hr>        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

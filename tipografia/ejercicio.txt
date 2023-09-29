@@ -1,0 +1,15 @@
+Tomar el layout fluid creado en layout, hacer una copia en la carpeta tipografía
+y modificarlo de manera que:
+
+1- para la resolucion lg en adelante se deben ver los párrafos dentro de cada div de manera:
+    a- columna 1 con contenidos alineado a la izquierda
+    b- columna 2 y 3 contenidos centrados
+    c- columna 4 con contenidos alineados a la derecha
+2- para la resolucion md se deben ver los párrafos dentro de cada div de manera:
+    a- columna 1 con contenidos alineados a la izquierda
+    b- columna 2 con contenidos centrados
+    c- columna 3 con contenidos alineados a la derecha
+3- para la resolucion sm se deben ver los párrafos dentro de cada div de manera:
+    a- columna 1 con contenidos alineados a la izquierda
+    b- columna 2 con contenidos alineados a la derecha
+4- para la resolucion xs se debe ver los contenidos dentro de cada div alineados al comienzo

@@ -71,9 +71,9 @@
                     
                 </div>
                 <hr>
-                <div class="col-">
+                <div class="col-md-6">
                     <h3 class="text-center">Tabla responsiva</h3>
-                    <div id="tabla-mobile"></div>
+                    <div id="tabla-mobile" class="table-responsive"></div>
                     
                 </div>
             </div>
@@ -98,10 +98,10 @@
             let tablaTitClaro = addCustomTableTo("table","tabla-tit_claro");
             tablaTitClaro.querySelector("thead").setAttribute("class","table-light");
             
-            let tablaTitOscuroColor = addCustomTableTo("table ","tabla-tit_oscuro_color");
+            let tablaTitOscuroColor = addCustomTableTo("table","tabla-tit_oscuro_color");
             tablaTitOscuroColor.querySelector("thead").setAttribute("class","table-dark");
             
-            addCustomTableTo("table table-hover table-striped table-responsive","tabla-mobile");
+            addCustomTableTo("table table-hover table-striped","tabla-mobile");
             
         </script>
     </body>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplos de tablas en Bootstrap</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="custom-table.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center bg-secondary">Trabajando con tablas</h1>
+            <div class="row">
+                <div class="col- col-md-6">
+                    <h3>Tabla sin bootstrap</h3>
+                    <div id="tabla-plana"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla con bootstrap</h3>
+                    <div id="tabla-bootstrap"></div>
+                </div>
+                <hr>
+                <div class="col- col-md-6">
+                    <h3>Tabla con fondo oscuro</h3>
+                    <div id="tabla-dark"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla con fondo de exito</h3>
+                    <div id="tabla-success"></div>
+                </div>
+                <hr>
+                <div class="col- col-md-6">
+                    <h3>Tabla a rayas</h3>
+                    <div id="tabla-striped"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla con filas coloreadas</h3>
+                    <div id="tabla-coloreada"></div>
+                </div>
+                <hr>
+                <div class="col- col-md-6">
+                    <h3>Tabla con bordes</h3>
+                    <div id="tabla-con-bordes"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla sin bordes</h3>
+                    <div id="tabla-sin-bordes"></div>
+                </div>
+                <hr>
+                <div class="col- col-md-6">
+                    <h3>Tabla con hover</h3>
+                    <div id="tabla-con-hover"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla reducida</h3>
+                    <div id="tabla-reducida"></div>
+                </div>
+                <hr>
+                <div class="col- col-md-6">
+                    <h3>Tabla con titulos color claro</h3>
+                    <div id="tabla-con-titulos-claros"></div>
+                </div>
+                <div class="col- col-md-6">
+                    <h3>Tabla con titulos color oscuro</h3>
+                    <div id="tabla-con-titulos-oscuros"></div>
+                </div>
+                <hr>
+                <div class="col-6">
+                    <h3 class="text-center">Tabla responsiva</h3>
+                    <div id="tabla-responsiva" class="table-responsive"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script>
+            addCustomTableTo("","tabla-plana");
+            addCustomTableTo("table","tabla-bootstrap");
+            addCustomTableTo("table table-dark","tabla-dark");
+            addCustomTableTo("table table-success","tabla-success");
+            addCustomTableTo("table table-striped","tabla-striped");
+            addCustomTableTo("table table-bordered", "tabla-con-bordes");
+            addCustomTableTo("table table-borderless", "tabla-sin-bordes");
+            addCustomTableTo("table table-hover", "tabla-con-hover");
+            addCustomTableTo("table table-sm", "tabla-reducida");
+            addCustomTableTo("table", "tabla-responsiva")
+            let tablaColor = addCustomTableTo("table","tabla-coloreada");
+            let tablaTitulosClaros = addCustomTableTo("table", "tabla-con-titulos-claros")
+            let tablaTitulosOscuros = addCustomTableTo("table", "tabla-con-titulos-oscuros")
+            tablaTitulosClaros.querySelector("thead").setAttribute("class", "table-light")
+            tablaTitulosOscuros.querySelector("thead").setAttribute("class", "table-dark")
+            tablaColor.querySelector("thead").setAttribute("class","table-dark");
+            tablaColor.querySelector("#fila1").setAttribute("class","table-success");
+            tablaColor.querySelector("#fila2").setAttribute("class","table-warning");
+            tablaColor.querySelector("#fila3").setAttribute("class","table-danger");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplos de listas en Bootstrap</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="custom-table.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center bg-secondary">Trabajando con Listas</h1>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista con html puro</h3>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Productos
+                            <ul>
+                                <li>Remeras</li>
+                                <li>Pntalones</li>
+                            </ul>
+                        </li>
+                        <li>Quines somos</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista de bootstrap sin estilo</h3>
+                    <ul class="list-unstyled">
+                        <li>Inicio</li>
+                        <li>Productos
+                            <ul>
+                                <li>Remeras</li>
+                                <li>Pntalones</li>
+                            </ul>
+                        </li>
+                        <li>Quines somos</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista en línea</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Inicio</li>
+                        <li class="list-inline-item">Productos</li>
+                        <li class="list-inline-item">Quines somos</li>
+                        <li class="list-inline-item">Contacto</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista de definición horizontal</h3>
+                    <dl class="row">
+                        <dt class="col-3">Javascript</dt>
+                        <dd class="col-9">Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript</dd>
+                        <dt class="col-3">CSS</dt>
+                        <dd class="col-9">Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista agrupapada</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">Bananas</li>
+                        <li class="list-group-item">Manzanas</li>
+                        <li class="list-group-item">Peras</li>
+                        <li class="list-group-item">Mandarinas</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista con items activos y deshabilitados</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item active">Wordpress</li>
+                        <li class="list-group-item">Joomla</li>
+                        <li class="list-group-item  disabled">Drupal</li>
+                        <li class="list-group-item">Don Web</li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista fluida</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Boca</li>
+                        <li class="list-group-item">River</li>
+                        <li class="list-group-item">Newell's Old Boys</li>
+                        <li class="list-group-item">Rosario Central</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista numerada</h3>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Argentina</li>
+                        <li class="list-group-item">Brasil</li>
+                        <li class="list-group-item">México</li>
+                        <li class="list-group-item">Canada</li>
+                    </ol>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista oscura</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-dark">Clarín</li>
+                        <li class="list-group-item list-group-item-dark">La Nación</li>
+                        <li class="list-group-item list-group-item-dark">Ambito</li>
+                        <li class="list-group-item list-group-item-dark">Rosario 3</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista coloreada</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">Calistenia</li>
+                        <li class="list-group-item list-group-item-secondary">Gimnasio</li>
+                        <li class="list-group-item list-group-item-warning">Running</li>
+                        <li class="list-group-item list-group-item-danger">Crossfit</li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Lista con radio buttons</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-dark">
+                            <input type="radio" name="presi" class="form-check-input"> Milei
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <input type="radio" name="presi" class="form-check-input"> Massa
+                        </li>
+                        <li class="list-group-item list-group-item-dark">
+                            <input type="radio" name="presi" class="form-check-input"> Bullrich
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>Lista con checkboxs</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary">
+                            <input type="checkbox" class="form-check-input"> Calistenia
+                        </li>
+                        <li class="list-group-item list-group-item-primary">
+                            <input type="checkbox" class="form-check-input"> Gimnasio
+                        </li>
+                        <li class="list-group-item list-group-item-primary">
+                            <input type="checkbox" class="form-check-input"> Running
+                        </li>
+                        <li class="list-group-item list-group-item-primary">
+                            <input type="checkbox" class="form-check-input"> Crossfit
+                        </li>
+                    </ul>
+                </div>
+                <br>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>

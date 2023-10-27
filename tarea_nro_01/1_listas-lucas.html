@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>primera sesión de listas de la tarea</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center bg-secondary">Trabajando con listas</h1>
+            <div class="row">
+                <div class="col- col-md-6">
+                    <h3>Lista no ordenada</h3>
+                    <div id="tabla-plana">
+                        <ul class="list-unstyled">
+                            <li>#1</li>
+                            <ul><li>Nombre: Aníbal</li></ul>
+                            <ul><li>Apellido: Schiaves</li></ul>
+                            <ul><li>Email: anibalschiaves@hotmail.com</li></ul>
+                        <li>#2</li>
+                            <ul> <li>Nombre: Lucas</li></ul>
+                            <ul><li>Apellido: Cabrera</li></ul>
+                            <ul><li>Email: lucascabrera@hotmail.com</li></ul>
+                        <li>#3</li>
+                            <ul><li>Nombre: Osvaldo</li></ul>
+                            <ul><li>Apellido: Ferrero</li></ul>
+                            <ul><li>Email: o_ferrero@yahoo.com</li></ul>
+                        </ul>
+                    </div>
+                    <h3>Lista en linea</h3>
+                    <div id="tabla en linea">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Nombre: Aníbal</li>
+                            <li class="list-inline-item">Apellido: Schiaves</li>
+                            <li class="list-inline-item">Email: anibalschiaves@hotmail.com</li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Nombre: Lucas</li>
+                            <li class="list-inline-item">Apellido: Cabrera</li>
+                            <li class="list-inline-item">Email: lucas_cabrera1@hotmail.com</li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">Nombre: Osvaldo</li>
+                            <li class="list-inline-item">Apellido: Ferrero</li>
+                            <li class="list-inline-item">Email: o_ferrero@yahoo.com</li>
+                        </ul>
+                    </div>
+                    <div id="horizontal-definition">
+                        <h3>Definición horizontal</h3>
+                        <dl class="row">
+                            <dt class="col-sm-3">Nombre</dt>
+                            <dd class="col-sm-9">Lucas</dd>
+                            <dt class="col-sm-3 text-truncate">Apellido</dt>
+                            <dd class="col-sm-9">Cabrera</dd>
+                            <dt class="col-sm-3">Email</dt>
+                            <dd class="col-sm-9 text-truncate">lucas_cabrera1@hotmail.com</dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="col-sm-3">Nombre</dt>
+                            <dd class="col-sm-9">Aníbal</dd>
+                            <dt class="col-sm-3 text-truncate">Apellido</dt>
+                            <dd class="col-sm-9">Schiaves</dd>
+                            <dt class="col-sm-3">Email</dt>
+                            <dd class="col-sm-9 text-truncate">anibalschiaves@hotmail.com</dd>
+                        </dl>
+                        <dl class="row">
+                            <dt class="col-sm-3">Nombre</dt>
+                            <dd class="col-sm-9">Osvaldo</dd>
+                            <dt class="col-sm-3 text-truncate">Apellido</dt>
+                            <dd class="col-sm-9">Ferrero</dd>
+                            <dt class="col-sm-3">Email</dt>
+                            <dd class="col-sm-9 text-truncate">o_ferrero@yahoo.com</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

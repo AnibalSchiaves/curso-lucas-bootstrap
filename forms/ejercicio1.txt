@@ -1,0 +1,5 @@
+Tomar el archivo forms\ejercicio1.html y modificarlo de manera que:
+
+1- Para resoluciones large o superior el formulario se vea como uno en linea
+2- para resolución media se vea como un formulario horizontal
+3- para resoluciones inferiores a media se vea como un formulario vertical
